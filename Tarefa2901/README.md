@@ -5,7 +5,7 @@
 Para usar, abra uma pasta no vscode, abra o terminal e clone o projeto com:
 
 ```bash
-git clone https://github.com/Aulo007/Tarefa2901.git
+git clone https://github.com/elioenai365/microcontrolador1/tree/main/Tarefa2901
 ```
 
 Após isso irão ser criadas a pasta Tarefa2901 e dentro dela terão mais duas pasta Atividade1 e Atividade2, dentro de cada uma delas está o código para cada uma das duas tarefas.
