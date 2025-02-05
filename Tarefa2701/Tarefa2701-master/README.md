@@ -1,6 +1,6 @@
 # Repositório referente atividade do dia 27/01/2025
 
-Para usar o projeto usar git clone[ https://github.com/Aulo007/Tarefa2701.git](https://github.com/elioenai365/microcontrolador1/tree/main/Tarefa2701)
+Para usar o projeto usar git clone[ https:(https://github.com/elioenai365/microcontrolador1/tree/main/Tarefa2701)
 
 Depois disso, ir no raspberry pi pico project e importar o projeto da pasta Tarefa2701.
 
