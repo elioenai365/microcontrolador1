@@ -11,6 +11,7 @@ Este projeto controla um servomotor utilizando a GPIO 22 do Raspberry Pi Pico co
 - LED RGB
 - Resistor de 330Ω para o LED
 - Jumpers para conexão
+- BitdogLab
 
 ## Conexão
 
