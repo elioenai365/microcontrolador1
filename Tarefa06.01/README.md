@@ -47,8 +47,7 @@ Este projeto controla um servomotor utilizando a GPIO 22 do Raspberry Pi Pico co
 
 Para visualizar a execução do projeto, assista ao vídeo disponível no link abaixo:
 [Vídeo Demonstrativo]
-https://www.canva.com/design/DAGe8X7zJA8/sMC1GHul2h7Ykk8ZK7qZCQ/view?utm_content=DAGe8X7zJA8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview
-
+(https://www.canva.com/design/DAGe8X7zJA8/qYxi1pevIFVPsqQthiQBpA/watch?utm_content=DAGe8X7zJA8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9ab89aff27)
 ## Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para modificá-lo e compartilhá-lo.
