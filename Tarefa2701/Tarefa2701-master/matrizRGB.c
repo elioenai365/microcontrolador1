@@ -37,9 +37,9 @@ void npInit(uint8_t pin)
 void setMatrizDeLEDSComIntensidade(int matriz[5][5][3], double intensidadeR, double intensidadeG, double intensidadeB)
 {
     // Validação das intensidades
-    intensidadeR = (intensidadeR < 0.0 || intensidadeR > 1.0) ? 1.0 : intensidadeR;
-    intensidadeG = (intensidadeG < 0.0 || intensidadeG > 1.0) ? 1.0 : intensidadeG;
-    intensidadeB = (intensidadeB < 0.0 || intensidadeB > 1.0) ? 1.0 : intensidadeB;
+    intensidadeR = (intensidadeR < 0.0 || intensidadeR > 1) ? 1 : intensidadeR;
+    intensidadeG = (intensidadeG < 0.0 || intensidadeG > 1) ? 1 : intensidadeG;
+    intensidadeB = (intensidadeB < 0.0 || intensidadeB > 1) ? 1 : intensidadeB;
 
     // Loop para configurar os LEDs
     for (uint8_t linha = 0; linha < 5; linha++)
