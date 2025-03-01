@@ -1,7 +1,7 @@
 #ifndef AUDIO_H
 #define AUDIO_H
 
-#include <stdint.h>  // Adicione esta linha
+#include <stdint.h>  
 
 #define SAMPLE_RATE 4000  // Taxa de amostragem em Hz
 #define BUFFER_SIZE 256   // Tamanho do buffer para processamento
