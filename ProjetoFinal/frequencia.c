@@ -25,6 +25,17 @@ float get_note(int note) {
     return -1.0f; // Retorna -1 se a nota estiver fora do intervalo
 }
 
+void testar_frequencia() {
+    int note_index = 2; // Exemplo: E4
+    float frequency = get_note(note_index);
+
+    if (frequency != -1.0f) {
+        printf("A frequência da nota %d é: %.2f Hz\n", note_index, frequency);
+    } else {
+        printf("Nota inválida!\n");
+    }
+}
+
 void init_frequencias(void) {
     // Inicialização das frequências, se necessário
 }

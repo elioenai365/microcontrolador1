@@ -16,4 +16,6 @@ void init_frequencias(void);
 float capturar_frequencia(void);
 void comparar_frequencia(float freq, char* nota);
 
+float get_note(int index);
+
 #endif // FREQUENCIA_H

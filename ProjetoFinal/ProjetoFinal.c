@@ -10,6 +10,8 @@
 #define LED_B 13
 #define BUZZER 15
 
+void testar_frequencia();
+
 
 
 void setup() {
@@ -30,6 +32,8 @@ void setup() {
 
 int main() {
     setup();
+
+    testar_frequencia();
     while (true) {
         float freq = capturar_frequencia();
         char nota[4];
