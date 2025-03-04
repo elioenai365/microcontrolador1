@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "author": "Afinador de Guitarra - BitDogLab",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "board-pi-pico-w",
+        "id": "pico",
+        "top": -70.45,
+        "left": -6.05,
+        "attrs": { "builder": "pico-sdk" }
+      },
+      {
+        "type": "wokwi-microphone",
+        "id": "mic",
+        "top": -64.98,
+        "left": -101.01,
+        "attrs": { "adcPin": "26" }
+      },
+      {
+        "type": "board-ssd1306",
+        "id": "oled1",
+        "top": 166.34,
+        "left": 29.03,
+        "attrs": { "i2cAddress": "0x3c" }
+      },
+      {
+        "type": "wokwi-rgb-led",
+        "id": "rgb1",
+        "top": 27.8,
+        "left": -76.5,
+        "rotate": 270,
+        "attrs": { "common": "cathode" }
+      },
+      { "type": "wokwi-buzzer", "id": "buzzer", "top": -45.6, "left": 145.8, "attrs": {} },
+      { "type": "wokwi-vcc", "id": "vcc1", "top": 80, "left": -50, "attrs": {} },
+      { "type": "wokwi-gnd", "id": "gnd1", "top": 100, "left": -30, "attrs": {} }
+    ],
+    "connections": [
+      [ "pico:3V3", "vcc1:VCC", "red", [] ],
+      [ "pico:GND.1", "gnd1:GND", "black", [] ],
+      [ "mic:OUT", "pico:GP26", "orange", [] ],
+      [ "mic:GND", "gnd1:GND", "black", [] ],
+      [ "mic:VCC", "vcc1:VCC", "red", [] ],
+      [ "oled1:SDA", "pico:GP4", "green", [ "v-19.2", "h0.07", "v-163.2" ] ],
+      [ "oled1:SCL", "pico:GP5", "blue", [ "h0.3", "v-172.8" ] ],
+      [ "oled1:GND", "gnd1:GND", "black", [ "v-38.4", "h-87" ] ],
+      [ "oled1:VCC", "vcc1:VCC", "red", [ "h0.15", "v-28.8", "h-117.2" ] ],
+      [ "rgb1:R", "pico:GP11", "red", [] ],
+      [ "rgb1:G", "pico:GP12", "green", [] ],
+      [ "rgb1:B", "pico:GP13", "blue", [] ],
+      [ "rgb1:COM", "gnd1:GND", "black", [] ],
+      [ "buzzer:SIG", "pico:GP15", "yellow", [] ],
+      [ "buzzer:GND", "gnd1:GND", "black", [] ],
+      [ "buzzer:VCC", "vcc1:VCC", "red", [] ]
+    ],
+    "dependencies": {}
+  }
